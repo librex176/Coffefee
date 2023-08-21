@@ -3,79 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlaces a archivos de estilos -->
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
+<body>
+    <!-- Contenedor principal -->
     <div class="container">
+        <!-- Fila para la barra de navegación -->
         <div class="row">
             <div class="col">
+                <!-- Barra de navegación -->
                 <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
                     <div class="container">
                         <a class="navbar-brand" href="#">
-                            <img src="./assets/logo.png" class="logo" alt="Logo" >
+                            <!-- Logo de la cafetería -->
+                            <img src="./assets/logo.png" class="logo" alt="Logo">
                         </a>
                         <div class="ml-auto">
                             <ul class="navbar-nav">
+                                <!-- Enlace "Nosotros" en la barra de navegación -->
                                 <li class="nav-item">
-                                    <a class="nav-link links " href="#">Nosotros</a>
+                                    <a class="nav-link links" href="#">Nosotros</a>
                                 </li>
+                                <!-- Enlace "Menú" en la barra de navegación -->
                                 <li class="nav-item">
-                                    <a class="nav-link links " href="#">Menu</a>
+                                    <a class="nav-link links" href="#">Menú</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
-                
             </div>
         </div>
+        <!-- Fila para el contenido principal -->
         <div class="main container bg-black">
-            <div class="row">                                   
+            <div class="row">
+                <!-- Columna izquierda: Tarjetas de los postres -->
                 <div class="col-6">
+                    <!-- Centrar el h1 en el medio y agregar espacio vertical -->
+                    <h1 class="text-center text-white my-4">Especialidades de la Casa</h1>
                     <div class="row">
+                        <!-- Tarjeta 1 -->
                         <div class="col-6">
                             <div class="card m-4">
-                                <img src="./assets/p_queso.png" class="card-img-top " alt="Imagen">
+                                <!-- Imagen de la tarjeta -->
+                                <img src="./assets/p_queso.png" class="card-img-top" alt="Imagen">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Dulce Delicia Americana 
+                                        Dulce Delicia Americana
                                     </p>
                                     <hr>
-                                    <p>Cheescake</p>
-                                    <p>Cafe Americano</p>
+                                    <!-- Descripción de los elementos del combo -->
+                                    <p>Cheesecake</p>
+                                    <p>Café Americano</p>
                                     <hr>
+                                    <!-- Precio del combo -->
                                     <p>$78 pesos</p>
                                 </div>
                             </div>
-                            
                         </div>
+                        <!-- Tarjeta 2 -->
                         <div class="col-6">
                             <div class="card m-4">
-                                <img src="./assets/tarta_chocolate.png" class="card-img-top " alt="Imagen">
+                                <!-- Imagen de la tarjeta -->
+                                <img src="./assets/tarta_chocolate.png" class="card-img-top" alt="Imagen">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Combo Dulce Clasico
+                                        Combo Dulce Clásico
                                     </p>
                                     <hr>
-                                    <p>Cafe latte </p>
+                                    <!-- Descripción de los elementos del combo -->
+                                    <p>Café latte</p>
                                     <p>Tarta de chocolate</p>
-                                    
                                     <hr>
+                                    <!-- Precio del combo -->
                                     <p>$92 pesos</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-
                 </div>
+                <!-- Columna derecha -->
                 <div class="col-6">Columna derecha</div>
             </div>
-            
         </div>
     </div>
+    <!-- Script de Bootstrap -->
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
