@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/derecha.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,9 +21,12 @@
                     <div class="container">
                         <a class="navbar-brand" href="#">
                             <!-- Logo de la cafetería -->
-                            <img src="./assets/logo.png" class="logo" alt="Logo">
+                            <img src="./assets/logo.png" class="logo ml-2" alt="Logo">
                         </a>
-                        <div class="ml-auto">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul class="navbar-nav">
                                 <!-- Enlace "Nosotros" en la barra de navegación -->
                                 <li class="nav-item">
@@ -39,15 +43,15 @@
             </div>
         </div>
         <!-- Fila para el contenido principal -->
-        <div class="main container bg-black">
+        <div class="main container bg-ligth">
             <div class="row">
                 <!-- Columna izquierda: Tarjetas de los postres -->
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12 izquierda">
                     <!-- Centrar el h1 en el medio y agregar espacio vertical -->
                     <h1 class="text-center text-white my-4">Especialidades de la Casa</h1>
                     <div class="row">
                         <!-- Tarjeta 1 -->
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="card m-4">
                                 <!-- Imagen de la tarjeta -->
                                 <img src="./assets/p_queso.png" class="card-img-top" alt="Imagen">
@@ -66,13 +70,13 @@
                             </div>
                         </div>
                         <!-- Tarjeta 2 -->
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <div class="card m-4">
                                 <!-- Imagen de la tarjeta -->
                                 <img src="./assets/tarta_chocolate.png" class="card-img-top" alt="Imagen">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Combo Dulce Clásico
+                                         Dulce Clásico
                                     </p>
                                     <hr>
                                     <!-- Descripción de los elementos del combo -->
@@ -84,10 +88,76 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Tarjeta 3 -->
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card m-4">
+                                <!-- Imagen de la tarjeta -->
+                                <img src="./assets/Postre_limon.png" class="card-img-top" alt="Imagen">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Frescura de verano
+                                    </p>
+                                    <hr>
+                                    <!-- Descripción de los elementos del combo -->
+                                    <p>Limonada De Lavanda</p>
+                                    <p>Tarta de Limon</p>
+                                    <hr>
+                                    <!-- Precio del combo -->
+                                    <p>$77 pesdsdos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tarjeta 4 -->
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card m-4">
+                                <!-- Imagen de la tarjeta -->
+                                <img src="./assets/menu.jpg" class="card-img-top" alt="Imagen">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Delicia de Queso
+                                    </p>
+                                    <hr>
+                                    <!-- Descripción de los elementos del combo -->
+                                    <p>Cafe Espresso</p>
+                                    <p>Pay de Queso</p>
+                                    <hr>
+                                    <!-- Precio del combo -->
+                                    <p>$84 pesos</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Columna derecha -->
-                <div class="col-6">Columna derecha</div>
+                <div class="col-lg-6 col-sm-12 derecha">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3 m-4">
+                                <div class="card-body">
+                                    <p class="card-text">Reseña 1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flex-column align-items-end">
+                        <div class="col-lg-6 col-sm-12 ">
+                            <div class="card mb-3 m-4">
+                                <div class="card-body">
+                                    <p class="card-text">Reseña 1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3 m-4 custom-card">
+                                <div class="card-body">
+                                    <p class="card-text">Reseña 1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,8 @@
+.custom-card{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.derecha{
+    background-image: url('../assets/cafeteria.png');
+    background-size: cover;
+}

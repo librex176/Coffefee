@@ -1,10 +1,10 @@
 .navbar-custom{
-    background-color: #663c06;
+    background-color: #3d3122;
     
 }
 .links  {
     color: #ffffff; /* Cambia este color al que prefieras */
     text-decoration: none; /* Elimina el subrayado */
     margin-right: 150px;
-    font-size: larger;
+    font-size: x-large;
 }
